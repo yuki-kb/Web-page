@@ -1,0 +1,120 @@
+/*ヘッダー用*/
+header{
+	background-image: url(img/header_back_portfolio.jpg);
+	height: 300px;
+	background-size: cover;
+	background-position: 50% 50%;
+}
+
+header ul{
+	list-style-type: none;
+	text-align: right;
+}
+
+header li{
+	display: inline-block;
+	padding: 4px 2px;
+	font-size: 24px;
+}
+
+header li > a{
+	background-color: rgb(0,0,0);
+	padding: 5px;
+	color: rgb(255,255,255);
+}
+
+header li > a:hover{
+	color: rgb(105,105,185);
+}
+
+/*header h1{
+	color: rgba(155,10,10,10);
+	font-style: oblique;
+	padding-top: 20px;
+	text-align: center;
+	font-size: 80px;
+}*/
+
+/*メイン用*/
+	/*全体*/
+body{
+	margin: 0;
+	padding: 0;
+	background-color: rgba(200,220,200,100);
+}
+	/*hr*/
+hr{
+	margin: 1px 0;
+	border-top: 2px solid #bbb;
+	border-bottom: 2px solid #fff;
+}
+
+	/*自己紹介セクション*/
+section{
+	text-align: center;
+	/*padding-left: 100px;*/
+}
+
+section h1{
+	box-shadow: 3px 3px 5px white;
+}
+
+section h2{
+	box-shadow: 3px 3px 5px white;
+	text-align: left;
+	padding-left: 5%;
+	font-size: 30px;
+}
+
+section h3{
+	font-size: 24px;
+}
+
+section h4{
+	font-size: 20px;
+}
+
+section ul{
+	list-style-type: none;
+
+}
+
+section a{
+	color: blue;
+}
+
+section a:hover{
+	color: rgb(100,50,100);
+}
+
+section img{
+	width: 80%;
+	height: 80%;
+}
+
+	/*作品紹介*/
+/*引き継いでいるものがあることに注意*/
+
+	/*フッター*/
+footer ul{
+	list-style-type: none;
+	text-align: right;
+	padding-right: 5%;
+}
+
+footer li{
+	padding: 4px 2px;
+}
+
+footer li > a{
+	color: royalblue;
+}
+
+footer li > a:hover{
+	color: rgb(100,50,100);
+}
+
+video{
+	width: 80%;
+	height: 400px;
+}
